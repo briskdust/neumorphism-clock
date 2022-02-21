@@ -55,8 +55,6 @@ body {
 .hour {
   width: 8px;
   height: 80px;
-
-  --rotation: 30;
 }
 
 .minute {
