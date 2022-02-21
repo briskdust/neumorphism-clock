@@ -5,8 +5,12 @@ const [hour] = document.getElementsByClassName("hour");
 const clockExec = () => {
   const currentDate = new Date();
   const secRat = currentDate.getSeconds() / 60;
+  const minRat = (currentDate.getMinutes() + secRat) / 60;
+  const hrRat = (currentDate.getHours() + minRat) / 12;
 
   second.style.setProperty("--rotation", secRat * 360);
+  minute.style.setProperty("--rotation", minRat * 360);
+  hour.style.setProperty("--rotation", hrRat * 360);
 };
 
 setInterval(clockExec, 1000);
