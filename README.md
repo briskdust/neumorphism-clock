@@ -5,4 +5,4 @@
 * [demo](#demo)
 
 ## Demo
-[Live preview](https://briskdust.github.io/neumorphism-clock/index.html)
+[Live preview](https://briskdust.github.io/neumorphism-clock/)
